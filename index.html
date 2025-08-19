@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z.T.S Tech Shop - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">ZTS</span>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="parts.html" class="nav-link">PC Parts</a>
+                <a href="bundles.html" class="nav-link">PC Bundles</a>
+                <a href="peripherals.html" class="nav-link">Peripherals</a>
+                <a href="limited.html" class="nav-link">Limited Items</a>
+                <a href="about.html" class="nav-link">About Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-image">
+            <img src="assets/logo-homepage.jpg" alt="Z.T.S Tech Shop Homepage">
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <h1 class="page-title">Welcome to Z.T.S Tech Shop</h1>
+            <p class="welcome-text">
+                Your one-stop destination for premium PC parts, gaming peripherals, and complete PC bundles. 
+                We offer the latest technology at competitive prices with expert advice to help you build your dream PC.
+            </p>
+
+            <!-- Featured Products Grid -->
+            <section class="featured-products">
+                <h2>Featured Products</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/logo-pcparts.jpg" alt="PC Parts">
+                        </div>
+                        <h3>High-End Graphics Cards</h3>
+                        <p>Latest RTX series for ultimate gaming performance</p>
+                        <a href="parts.html" class="btn">View Details</a>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/logo-pcbundles.jpg" alt="PC Bundles">
+                        </div>
+                        <h3>Gaming PC Bundles</h3>
+                        <p>Complete gaming setups ready to play</p>
+                        <a href="bundles.html" class="btn">View Details</a>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/logo-peripherals.jpg" alt="Peripherals">
+                        </div>
+                        <h3>Gaming Peripherals</h3>
+                        <p>Mice, keyboards, and headsets for gamers</p>
+                        <a href="peripherals.html" class="btn">View Details</a>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/logo-limited.jpg" alt="Limited Items">
+                        </div>
+                        <h3>Limited Time Offers</h3>
+                        <p>Special deals and exclusive products</p>
+                        <a href="limited.html" class="btn">View Details</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h3>Contact Us</h3>
+                    <p>📱 WhatsApp: +1234567890</p>
+                    <p>📸 Instagram: @zts_techshop</p>
+                </div>
+                <div class="copyright">
+                    <p>&copy; <span id="current-year">2025</span> Z.T.S Tech Shop. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Auto-update copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
